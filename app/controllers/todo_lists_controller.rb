@@ -42,7 +42,7 @@ class TodoListsController < ApplicationController
   def update
     respond_to do |format|
       if @todo_list.update(todo_list_params)
-        format.html { redirect_to @todo_list, notice: 'Todo list was successfully updated.' }
+        format.html { redirect_to root_url, notice: 'Todo list was successfully updated.' }
         format.json { render :show, status: :ok, location: @todo_list }
       else
         format.html { render :edit }

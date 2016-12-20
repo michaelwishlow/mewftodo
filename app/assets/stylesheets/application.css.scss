@@ -46,9 +46,13 @@ body {
 
 #notice {
 	text-align: center;
-	font-size: 0.6em;
+	font-size: 0.8em;
 	color: $dark;
 	font-weight: 100;
+	border: 1px solid $white_opaque;
+	padding: .5em 1em;
+	display: block;
+	margin: 1em 25%;
 }
 
 .container {

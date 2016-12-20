@@ -23,7 +23,7 @@
 								<p><%= todo_item.content %></p>
 							</div>
 							<div class="trash">
-								  <%= link_to todo_list_todo_item_path(@todo_list, todo_item.id), method: :delete, data: { confirm: "Are You Sure ?" } do%>
+								  <%= link_to todo_list_todo_item_path(@todo_list, todo_item.id), method: :delete, data: { confirm: "Are You Sure ?" } do %>
 								  <i class="fa fa-trash"></i>
 								  <% end %>
 							</div>
